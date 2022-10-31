@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        .container-fluid{
+            margin: 0px;
+            padding: 0px;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            margin-left: 0px;
+        }
+        .navbar-brand{
+            margin-left: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .nav-item{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: px;
+            margin-bottom: 20px;
+        }
+        .vish{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        h1{
+        color: burlywood;
+        font-weight: bold;
+        font-size: 50px;
+        margin-left: 15px;
+        }
+        p{
+            margin-top: 10px;
+        }
+        footer{
+        margin-top: 10px;
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: 4fr 4fr 4fr;
+        padding: 10px;
+        background-color: ;
+        color: black;
+        height: 400px;
+      }  
+      ul{
+        list-style: none;
+        font-size: 15x;
+        font-family: Arial ;
+      }
+      li{
+        margin-bottom: 15px;
+      }
+      li:first-child{
+        font-weight: bold;
+        font-size: 20px;
+      }
+      .navbar-nav{
+        margin-left: 30px;
+
+      }
+
+    </style>
+    
+   
+</head>
+<body class="container-fluid">
+    <nav class="navbar navbar-expand-sm bg-success navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand " href="#">Krushi</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="http://www.instagram.com"><span class="bi bi-instagram"></span> instagram</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://www.Facebook.com"><span class="bi bi-facebook"></span> Facebook</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span class="bi bi-person-fill"></span>Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="container-fluid">
+        <div>
+            <img src="../public/Images/shetakarilogo.png" style="width: 300px;">
+        </div>
+      </section>
+      <main>
+        <h1>Welcome To Krushi Market</h1> 
+      </main>
+      <div class="vish">
+        <button class="btn btn-outline-primary btn-lg" data-bs-target="#login" data-bs-toggle="modal">Click To Login</button>
+        <div class="modal fade" id="login">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header"> 
+                        <h2> <span class="bi bi-person-fill"></span> User Login</h2>
+                        <button data-bs-dismiss="modal" class="btn-close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <dl>
+                            <dt class="mb-2">User Name</dt>
+                            <dd><input type="text" placeholder="Enter youre name" class="form-control"></dd>
+                            <dt class="mb-2">Password</dt>
+                            <dd><input type="password" placeholder="Enter youre password" class="form-control"></dd>
+                        </dl>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary">Login</button>
+                        <button data-bs-dismiss="modal" class="btn btn-danger">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 class="text-center">Youre Questions About Krushi Market</h2>
+    <div class="accordion" id="faq">
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button data-bs-target="#q1" data-bs-toggle="collapse" class="accordion-button">What is krushi market?</button>
+            </div>
+            <div class="accordion-collapse collapse" id="q1" data-bs-parent="#faq">
+                <div class="accordion-body">
+                   <p>
+                    An Agricultural Produce Market Committee (APMC) is a marketing board established by state governments in India to ensure farmers are safeguarded from exploitation by large retailers, as well as ensuring the farm to retail price spread does not reach excessively high levels. APMCs are regulated by states through their adoption of a Agriculture Produce Marketing Regulation (APMR) Act.[1]
+                    Prior to independence in 1947, the major concern of Government policy related to agricultural marketing was to keep the prices of food for the consumers and agro-raw materials for the industry in check. However, after independence, there came a need to protect the interest of farmers and to provide them incentive prices to augment the production of agricultural commodities. Common throughout the country were problems of local money lenders extorting high amounts of foodgrains from the farmer, at throwaway prices, as interest. Recognizing the defects that farmers faced—such as losses in terms of undue low prices, higher costs of marketing, and considerable physical losses of the produce in the agricultural marketing system—the Indian Government introduced several mandatory regulations in hopes of establishing a mechanism to monitor the market conduct. Regulation and development of primary agricultural produce markets was taken up as an institutional innovation, and construction of well laid out market yards was considered as an essential requirement for regulating the practices in primary wholesale m
+                   </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button data-bs-target="#q2" data-bs-toggle="collapse" class="accordion-button">Why Farmer is necessary to us?</button>
+            </div>
+            <div class="accordion-collapse collapse" id="q2" data-bs-parent="#faq">
+                <div class="accorrdion-body">
+                    <p>
+                        The development of agriculture enabled the human population to grow many times larger than could be sustained by hunting and gathering.[11] Agriculture began independently in different parts of the globe,[12] and included a diverse range of taxa, in at least 11 separate centers of origin.[9] Wild grains were collected and eaten from at least 105,000 years ago.[13] In the Paleolithic Levant, 23,000 years ago, cereals cultivation of emmer, barley, and oats has been observed near the sea of Galilee.[14][15] Rice was domesticated in China between 11,500 and 6,200 BC with the earliest known cultivation from 5,700 BC,[16] followed by mung, soy and azuki beans. Sheep were domesticated in Mesopotamia between 13,000 and 11,000 years ago.[17] Cattle were domesticated from the wild aurochs in the areas of modern Turkey and Pakistan some 10,500 years ago.[18] Pig production emerged in Eurasia, including Europe, East Asia and Southwest Asia,[19] where wild boar were first domesticated about 10,500 years ago.[20] In the Andes of South America, the potato was domesticated between 10,000 and 7,000 years ago, along with beans, coca, llamas, alpacas, and guinea pigs. Sugarcane and some root vegetables were domesticated in New Guinea around 9,000 years ago. Sorghum was domesticated in the Sahel region of Africa by 7,000 years ago. Cotton was domesticated in Peru by 5,600 years ago,[21] and was independently domesticated in Eurasia. In Mesoamerica, wild teosinte was bred into maize by 6,000 years ago.[22] The horse was domesticated in the Eurasian Steppes around 3500 BC.[23] Scholars have offered multiple hypotheses to explain the historical origins of agriculture. Studies of the transition from hunter-gatherer to agricultural societies indicate an initial period of intensification and increasing sedentism; examples are the Natufian culture in the Levant, and the Early Chinese Neolithic in China. Then, wild stands that had previously been harvested started to be planted, and gradually came to be domesticated.[24][25][26]
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <ul>
+                <li> Get to Know Us</li>
+                <li>About Us</li>
+                <li>Careers</li>
+                <li>presss releases</li>
+                <li>Krushi</li>
+                <li>gift a smile</li>
+                <li>Krushi science</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>Make Money with us</li>
+                 <li>Sell on Krushi Business</li>
+                 <li>Sell your product</li>
+                 <li>Become an Affiliate</li>
+                 <li>Advertise Your Products</li>
+                 
+            </ul>
+        </div>
+        <div>
+             <ul>
+                <li>Join to prime </li>
+                <li>buy form krushi</li>
+                <li>Farmer intiligence</li>
+                <li>Become an good farmer</li>
+                <li>Display your aids</li>
+    
+            </ul>
+        </div>
+        <div>
+    
+        </div>
+       </footer> 
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
